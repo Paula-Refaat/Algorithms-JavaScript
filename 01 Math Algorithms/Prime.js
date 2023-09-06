@@ -12,3 +12,5 @@ function isPrime(n) {
 console.log(isPrime(3)); //true
 console.log(isPrime(15)); //false
 console.log(isPrime(20)); // false
+
+//Big-O = O(sqrt(n))

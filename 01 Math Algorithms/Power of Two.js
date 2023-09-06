@@ -9,21 +9,25 @@ console.log(isPowerOfTwoBitWise(2)); //true
 console.log(isPowerOfTwoBitWise(3)); //false
 //Big-O = O(1).
 
+////////////////////////////////////////////////////////
 
-// function isPowerOfTwo(n) {
-//   if (n < 1) {
-//     return false;
-//   }
-//   while (n > 1) {
-//     if (n % 2 !== 0) {
-//       return false;
-//     }
-//     n = n / 2;
-//   }
-//   return true;
-// }
-// console.log(isPowerOfTwo(1)); //true
-// console.log(isPowerOfTwo(2)); //true
-// console.log(isPowerOfTwo(5)); //false
+//another Solution
+/*
+function isPowerOfTwo(n) {
+  if (n < 1) {
+    return false;
+  }
+  while (n > 1) {
+    if (n % 2 !== 0) {
+      return false;
+    }
+    n = n / 2;
+  }
+  return true;
+}
+console.log(isPowerOfTwo(1)); //true
+console.log(isPowerOfTwo(2)); //true
+console.log(isPowerOfTwo(5)); //false
+*/
 
 //  //Big-O = O(log(n)).
